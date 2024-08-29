@@ -1,0 +1,30 @@
+.login-app{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50vh 50vh;
+  justify-items: center;
+  align-items: center;
+
+  .form{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1/span 3;
+    background-color: blue;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    margin : 0 5px;
+
+    .input-group{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      grid-row:2;
+      align-items: center;
+      grid-column: 2/1 span;
+      gap:5px;
+    }
+
+  }
+}
+
+
