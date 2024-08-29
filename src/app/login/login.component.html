@@ -1,9 +1,16 @@
-<div class="login-app">
-<span class="form">
+<div class="login-app-{{getScreenSize()}}">
+<span class="form-{{getScreenSize()}}">
   <span class="input-group">
-    <div class="card flex justify-content-center">
-      <input pInputText type="text"  />
-  </div>
+    <label for="Login">Login</label>
+    <input pInputText type="text" placeholder="Login"  variant="filled"/>
+    <label for="Senha">Senha</label>
+    <p-password formControlName="value" placeholder="Senha" [feedback]="false" />
+
+  </span>
+  <span class="button-group">
+    <p-button
+    label="Search"
+    icon="pi pi-check" />
   </span>
 </span>
 

@@ -38,9 +38,8 @@
             ],
             "styles": [
               "src/styles.less",
-              "node_modules/primeng/resources/themes/saga-blue/theme.css",
-              "node_modules/primeng/resources/primeng.min.css",
-              "node_modules/primeicons/primeicons.css"
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
             "scripts": []
           },
@@ -61,7 +60,7 @@
               "outputHashing": "all"
             },
             "development": {
-              "optimization": true,
+              "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
             }
